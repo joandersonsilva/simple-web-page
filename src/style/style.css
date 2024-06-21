@@ -30,14 +30,22 @@ header ul{
 }
 
 header ul li{
-    margin: 0;
+    margin: 10px;
 }
 
 header ul li a{
     text-decoration: none;
-        color: black;
+    color: black;
+    padding: 10px;
+    border-radius: 20px 10px 20px 10px;
 }
-
+header ul li a:hover{
+    background-color: rgb(20, 171, 197);
+    transition-duration: 0.8s;
+}
+#content{
+    margin-top: 50px;
+}
 #content img{
     float: right;
     margin-left: 20px;
@@ -51,4 +59,13 @@ header ul li a{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
